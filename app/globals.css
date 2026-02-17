@@ -150,7 +150,7 @@ body::before {
 }
 
 .heading {
-  font-family: var(--font-heading), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: clamp(2.2rem, 3.6vw, 3rem);
   line-height: 1.05;
   font-weight: 800;
@@ -171,9 +171,9 @@ body::before {
 }
 
 .body-text {
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.7;
-  color: rgba(226, 232, 240, 0.92);
+  color: rgba(241, 245, 249, 0.97);
   margin-bottom: 2.1rem;
 }
 
@@ -373,8 +373,8 @@ body::before {
 
 .sub-text {
   margin-top: 2rem;
-  font-size: 0.8rem;
-  color: rgba(209, 213, 219, 0.9);
+  font-size: 1rem;
+  color: rgba(241, 245, 249, 0.97);
   font-style: italic;
 }
 
@@ -404,20 +404,23 @@ body::before {
 
 .hero-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 2.25rem;
   align-items: flex-start;
+  justify-items: center;
+  width: 100%;
 }
 
 @media (min-width: 900px) {
   .hero-layout {
-    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    grid-template-columns: minmax(0, 1fr);
     gap: 3.4rem;
   }
 }
 
 .hero-main {
-  max-width: 640px;
+  max-width: min(880px, 92vw);
+  width: 100%;
 }
 
 .hero-preview {
@@ -843,7 +846,10 @@ body::before {
 .hero-inner {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 2.8rem;
+  width: 100%;
+  padding-top: 4rem;
 }
 
 .section-grid {

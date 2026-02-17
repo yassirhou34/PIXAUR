@@ -94,7 +94,6 @@ export default function Home() {
               className="hero-logo-img"
             />
           </div>
-          <div className="super-title">Landing de pré-lancement</div>
 
           <motion.div className="hero-inner" initial="hidden" animate="visible" variants={heroStagger}>
             <div className="hero-layout">
