@@ -99,16 +99,15 @@ export default function Home() {
             <div className="hero-layout">
               <div className="hero-main">
                 <motion.h1 id="landing-title" className="heading" variants={heroItem}>
-                  <span>Bientôt en ligne.</span>
-                  <span className="heading-strong">Et cette fois, ça va se voir…!</span>
+                  <span className="heading-strong">Nous manageons votre image de marque</span>
                 </motion.h1>
 
                 <motion.div className="body-text" variants={heroItem}>
-                  <p>Nous manageons votre image de marque</p>
+                  
                   <p>Agence Créative / Publicitaire, Écosystème marketing :</p>
                   
                   <p>
-                    nous créons des campagnes et des contenus qui positionnent votre entreprise au niveau supérieur.
+                    Nous créons des campagnes et des contenus qui positionnent votre entreprise au niveau supérieur.
                   </p>
                   <p>Notre site est en cours de finalisation.</p>
                   <p>Notre agence, elle, est déjà opérationnelle.</p>
