@@ -104,12 +104,14 @@ export default function Home() {
                 </motion.h1>
 
                 <motion.div className="body-text" variants={heroItem}>
-                  <p>Le temps de la mise en ligne approche…</p>
-                  <p>Plus qu&apos;une agence, un nouveau regard sur vos ambitions.</p>
+                  <p>Nous manageons votre image de marque</p>
+                  <p>Agence Créative / Publicitaire,</p>
+                  <p>Écosystème marketing :</p>
                   <p>
-                    Un nouveau chapitre s&apos;écrit. Nous finalisons un lieu pensé pour vous exposer l&apos;écosystème
-                    Pixaura, nos méthodes et la manière dont nous portons votre marque au niveau supérieur.
+                    nous créons des campagnes et des contenus qui positionnent votre entreprise au niveau supérieur.
                   </p>
+                  <p>Notre site est en cours de finalisation.</p>
+                  <p>Notre agence, elle, est déjà opérationnelle.</p>
                 </motion.div>
 
                 <motion.div className="cta-row" variants={heroItem}>
