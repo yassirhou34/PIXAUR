@@ -34,6 +34,18 @@ const heroItem = {
   visible: { opacity: 1, y: 0 },
 }
 
+const EMAIL_SUBJECT = "Me prévenir au lancement de Pixaura International"
+const EMAIL_BODY = `Bonjour,
+
+Je souhaite être prévenu(e) dès que le site Pixaura International est en ligne.
+
+Merci,
+
+Nom :
+Téléphone (optionnel) :
+Entreprise (optionnel) :
+Ville (optionnel) :`
+
 export default function Home() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 })
   const [showIntro, setShowIntro] = useState(true)
@@ -115,7 +127,7 @@ export default function Home() {
 
                 <motion.div className="cta-row" variants={heroItem}>
                   <a
-                    href="mailto:contact@pixaura.eu?subject=Me%20pr%C3%A9venir%20au%20lancement%20de%20Pixaura%20International"
+                    href={`mailto:contact@pixaura.eu?subject=${encodeURIComponent(EMAIL_SUBJECT)}&body=${encodeURIComponent(EMAIL_BODY)}`}
                     className="cta-button cta-button-primary"
                     aria-label="Me prévenir au lancement par email"
                   >
