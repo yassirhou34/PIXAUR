@@ -105,8 +105,8 @@ export default function Home() {
 
                 <motion.div className="body-text" variants={heroItem}>
                   <p>Nous manageons votre image de marque</p>
-                  <p>Agence Créative / Publicitaire,</p>
-                  <p>Écosystème marketing :</p>
+                  <p>Agence Créative / Publicitaire, Écosystème marketing :</p>
+                  
                   <p>
                     nous créons des campagnes et des contenus qui positionnent votre entreprise au niveau supérieur.
                   </p>
