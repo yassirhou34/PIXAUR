@@ -114,19 +114,14 @@ export default function Home() {
                 </motion.div>
 
                 <motion.div className="cta-row" variants={heroItem}>
-                  <button
+                  <a
+                    href="mailto:contact@pixaura.eu?subject=Me%20pr%C3%A9venir%20au%20lancement%20de%20Pixaura%20International"
                     className="cta-button cta-button-primary"
-                    type="button"
-                    onClick={() => {
-                      const el = document.getElementById("contact")
-                      if (el) {
-                        el.scrollIntoView({ behavior: "smooth", block: "start" })
-                      }
-                    }}
+                    aria-label="Me prévenir au lancement par email"
                   >
                     <span>Me prévenir au lancement</span>
                     <span className="cta-icon">↗</span>
-                  </button>
+                  </a>
                 </motion.div>
 
                 <motion.p className="sub-text" variants={heroItem}>
